@@ -1,9 +1,20 @@
-.topo-produtos {
+.principal {
     font-family: 'Raleway', sans-serif;
     display: grid;
-    grid-template-columns: 1fr auto;
-    margin:  16px auto;
+    grid-template-columns: 1fr 1fr;
+    margin: 16px auto;
     width: 90vw;
+}
+
+.topo-produtos {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos {
+    margin-top: 10px;
+    
 }
 
 .topo-produtos__texto, .topo-produtos__botao {
@@ -12,6 +23,7 @@
 
 .topo-produtos__botao {
     border: none;
+    font-size: 14px;
     cursor: pointer;
     color: #2A7AE4;
     background-color: #FFF;
