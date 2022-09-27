@@ -1,0 +1,29 @@
+.topo {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.topo__logo {
+    width: 100px;
+}
+
+.topo__botao {
+    cursor: pointer;
+    width: 130px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    background-color: #FFF;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+
+.topo__botao--pesquisa {
+    border: none;
+    cursor: pointer;
+    background-color: #FFF;
+}

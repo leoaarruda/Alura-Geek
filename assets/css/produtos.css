@@ -1,0 +1,23 @@
+.topo-produtos {
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin:  16px auto;
+    width: 90vw;
+}
+
+.topo-produtos__texto, .topo-produtos__botao {
+    font-weight: 700;
+}
+
+.topo-produtos__botao {
+    border: none;
+    cursor: pointer;
+    color: #2A7AE4;
+    background-color: #FFF;
+}
+
+.topo-produtos__botao::after {
+    content: url(../img/seta.png);
+    margin-left: 5px;
+}
