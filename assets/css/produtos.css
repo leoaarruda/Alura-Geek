@@ -1,20 +1,9 @@
-.principal {
-    font-family: 'Raleway', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 16px auto;
-    width: 90vw;
-}
-
 .topo-produtos {
     grid-column: span 2;
     display: flex;
     justify-content: space-between;
-}
-
-.produtos {
-    margin-top: 10px;
-    
+    width: 90vw;
+    margin: 0 auto 16px;
 }
 
 .topo-produtos__texto, .topo-produtos__botao {
@@ -23,13 +12,48 @@
 
 .topo-produtos__botao {
     border: none;
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 16.44px;
     cursor: pointer;
     color: #2A7AE4;
-    background-color: #FFF;
+    background-color: #E5E5E5;
 }
 
 .topo-produtos__botao::after {
     content: url(../img/seta.png);
     margin-left: 5px;
+}
+
+.principal {
+    width: 100vw;
+    height: 565px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.produtos__nome {
+    font-weight: 500;
+}
+
+.produtos__nome, .produtos__link {
+    font-size: 14px;
+}
+
+.produtos__preco {
+    font-size: 16px;
+}
+
+.produtos__preco, .produtos__link {
+    font-weight: 700;
+}
+
+.produtos__nome, .produtos__preco, .produtos__link {
+    padding: 8px 0 8px 0;
+}
+
+.produtos__link {
+    text-decoration: none;
 }
