@@ -1,4 +1,4 @@
-.topo-produtos {
+.topo-produtos, .linha-produtos-topo {
     grid-column: span 2;
     display: flex;
     justify-content: space-between;
