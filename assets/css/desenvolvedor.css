@@ -1,0 +1,11 @@
+.desenvolvedor {
+    background-color: #FFF;
+    height: 102px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 auto;
+}

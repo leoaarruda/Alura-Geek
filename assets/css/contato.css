@@ -1,0 +1,61 @@
+.contato {
+    margin: 20px auto;
+}
+
+.contato__campos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contato__nome {
+    text-indent: 10px;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.contato__nome::placeholder {
+    font-size: 12px;
+    position: absolute;
+    top: 6px;
+}
+
+.contato__mensagem {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    height: 82px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.contato__mensagem::placeholder {
+    position: absolute;
+    font-size: 16px;
+    top: 16px;
+    left: 10px;
+}
+
+.contato__botao {
+    margin-top: 10px;
+    cursor: pointer;
+    top: 58px;
+    width: 151px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    background: #2A7AE4;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 16.44px;
+    border: none;
+}
