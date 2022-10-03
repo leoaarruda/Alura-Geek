@@ -6,6 +6,7 @@
 
 .rodape-conteudo__links {
     display: flex;
+    font-size: 16px;
     flex-direction: column;
     align-items: center;
 }
@@ -94,24 +95,43 @@
 
     .rodape-conteudo {
         display: flex;
+        height: 364px;
     }
 
     .rodape-conteudo__logo {
-        margin: 20px;
+        width: 176px;
+        height: 50px;
+        margin: 25px 0 0 25px;
         position: absolute;
     }
 
-
     .rodape-conteudo__links {
         position: relative;
-        margin: 80px 14px;
+        margin: 50px -12px;
+        padding: 25px;
+        height: 364px;
         align-items: flex-start;
         width: 254px;
-        height: 250px;
+        line-height: 19px;
+        line-height: 100%;
     }
 
     .rodape-conteudo__links--estilo {
+        padding: 12px;
         line-height: 18.78px;
         font-weight: 500;
+    }
+
+    .rodape-contato__campos {
+        margin: 5px 0 0 25px;
+    }
+
+    .rodape-contato__botao {
+        margin-left: 25px;
+    }
+    
+    .rodape-contato__nome {
+        width: 434px;
+        height: 56px;
     }
 }
