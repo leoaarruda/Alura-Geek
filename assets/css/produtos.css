@@ -70,9 +70,13 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1365px) {
     .principal {
         height: 340px;
+    }
+
+    .top {
+        margin-top: 40px;
     }
 
     .produtos img {
@@ -81,7 +85,7 @@
     }
 
     .topo-produtos {
-        width: 93%;
+        width: 81%;
         margin: 0 auto 16px;
     }
 
@@ -90,13 +94,36 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .desktop {
-        display: block;
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+    .principal {
+        width: 1240px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .produtos {
+        /* width: 1140px; */
+        height: 306px;
+    }
+
+    .top {
+        margin-top: 40px;
+    }
+
+    .topo-produtos {
+        font-size: 16px;
+        line-height: 37.57px;
+        width: 1180px;
     }
 
     .produtos img {
+        margin-top: 5px;
+        letter-spacing: 0;
         width: 176px;
         height: 174px;
+    }
+
+    .desktop {
+        display: block;
     }
 }

@@ -91,7 +91,7 @@
     border: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1365px) {
 
     .rodape-conteudo {
         display: flex;
@@ -129,9 +129,56 @@
     .rodape-contato__botao {
         margin-left: 25px;
     }
-    
+
     .rodape-contato__nome {
         width: 434px;
         height: 56px;
     }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .rodape-contato {
+        height: 368px;
+    }
+    .rodape-conteudo {
+        display: flex;
+        height: 364px;
+    }
+
+    .rodape-conteudo__logo {
+        width: 176px;
+        height: 50px;
+        margin: 50px 0 0 100px;
+    }
+
+    .rodape-conteudo__links {
+        margin: 45px 0 0 100px;
+        width: 254px;
+        height: 270px;
+        align-items: flex-start;
+        line-height: 19px;
+        line-height: 100%;
+    }
+
+    .rodape-conteudo__links--estilo {
+        padding: 13px;
+        line-height: 18.78px;
+        font-weight: 500;
+    }
+
+    .rodape-contato {
+        margin-top: 50px;
+        width: 560px;
+        height: 245px;
+    }
+
+    .rodape-contato__campos {
+        margin: 5px 0 0 0;
+    }
+
+    .rodape-contato__nome {
+        height: 56px;
+    }
+
 }
