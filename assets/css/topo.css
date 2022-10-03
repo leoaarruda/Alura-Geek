@@ -7,21 +7,19 @@
     background-color: #FFF;
 }
 
-
-
 .topo__logo {
     width: 100px;
 }
 
-
+.topo__pesquisa, .topo__pesquisa--lupa {
+    display: none;
+}
 
 .topo__botao {
-    cursor: pointer;
     width: 130px;
     height: 38px;
     font-size: 14px;
     font-weight: 600;
-    letter-spacing: 0;
     background-color: #FFF;
     color: #2A7AE4;
     border: 1px solid #2A7AE4;
@@ -34,6 +32,41 @@
 }
 
 @media screen and (min-width: 768px) {
+    .topo {
+        justify-content: space-between;
+    }
+
+    .topo__pesquisa {
+        display: block;
+        border: none;
+        width: 272px;
+        height: 40px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        position: relative;
+        outline: none;
+        text-indent: 15px;
+    }
+
+    .topo__pesquisa--lupa {
+        position: absolute;
+        display: block;
+        margin-top: -30px;
+        margin-left: 240px;
+    }
+
+    .topo__logo {
+        margin-left: 50px;
+    }
+
+    .topo__botao {
+        margin-left: 150px;
+    }
+
+    .topo__botao--pesquisa {
+        display: none;
+    }
+
     .topo__produtos {
         margin-top: 50px;
     }

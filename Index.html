@@ -23,8 +23,13 @@
         <section class="topo">
 
             <div>
-                <img src="assets/img/Logo.png" alt="logo da alura Geek">
+                <img class="topo__logo" src="assets/img/Logo.png" alt="logo da alura Geek">
             </div>
+
+            <form>
+                <input  class="topo__pesquisa" type="text" name="" id="nome" placeholder="O que deseja encontrar?" >
+                <img class="topo__pesquisa--lupa" src="assets/img/icone-loupe-gris.png" alt="">
+            </form>
 
             <div>
                 <button class="topo__botao"> Login</button>
@@ -217,7 +222,8 @@
             <form class="rodape-contato__campos">
                 <label for="nome" class="rodape-contato__label">Fale conosco</label>
                 <input type="text" name="" id="nome" placeholder="Nome" required class="rodape-contato__nome">
-                <textarea name="" id="mensagem" placeholder="Escreva sua mensagem" class="rodape-contato__mensagem"></textarea>
+                <textarea name="" id="mensagem" placeholder="Escreva sua mensagem"
+                    class="rodape-contato__mensagem"></textarea>
             </form>
             <button class="rodape-contato__botao">Enviar mensagem</button>
 
