@@ -7,36 +7,13 @@
     background-color: #FFF;
 }
 
+
+
 .topo__logo {
     width: 100px;
 }
 
-.topo-produtos {
-    grid-column: span 2;
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 0 auto 16px;
-}
 
-
-.topo-produtos__texto, .topo-produtos__botao {
-    font-weight: 700;
-}
-
-.topo-produtos__botao {
-    border: none;
-    font-size: 14px;
-    line-height: 16.44px;
-    cursor: pointer;
-    color: #2A7AE4;
-    background-color: #E5E5E5;
-}
-
-.topo-produtos__botao::after {
-    content: url(../img/seta.png);
-    margin-left: 5px;
-}
 
 .topo__botao {
     cursor: pointer;
@@ -64,5 +41,5 @@
     .topo-produtos__botao {
         font-size: 16px;
     }
-    
+
 }

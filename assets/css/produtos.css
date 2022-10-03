@@ -8,9 +8,30 @@
 }
 
 .topo-produtos {
-    padding: 16px 0 0;
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 0 auto 16px;
 }
 
+.topo-produtos__texto, .topo-produtos__botao {
+    font-weight: 700;
+}
+
+.topo-produtos__botao {
+    border: none;
+    font-size: 14px;
+    line-height: 16.44px;
+    cursor: pointer;
+    color: #2A7AE4;
+    background-color: #E5E5E5;
+}
+
+.topo-produtos__botao::after {
+    content: url(../img/seta.png);
+    margin-left: 5px;
+}
 
 .produtos__nome, .produtos__preco {
     margin-bottom: 10px;
@@ -45,7 +66,6 @@
     text-decoration: none;
 }
 
-
 .desktop {
     display: none;
 }
@@ -68,7 +88,6 @@
     .produtos__link {
         font-size: 19px;
     }
-
 }
 
 @media screen and (min-width: 1440px) {
