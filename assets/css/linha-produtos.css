@@ -1,7 +1,0 @@
-.linha-produtos-topo {
-    grid-column: span 2;
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 16px auto 16px;
-}
