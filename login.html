@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/topo.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/desenvolvedor.css">
+
+
+    <title>Login - Alura Geek</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="topo">
+
+            <div>
+                <a href="Index.html"><img class="topo__logo" src="assets/img/Logo1.png" alt="logo da alura Geek"></a>
+            </div>
+
+            <form>
+                <input class="topo__pesquisa" type="text" name="" id="nome" placeholder="O que deseja encontrar?">
+                <img class="topo__pesquisa--lupa" src="assets/img/icone-loupe-gris.png" alt="">
+            </form>
+
+            <div>
+                <button type="button" class="topo__botao">Login</button>
+            </div>
+
+            <div>
+                <button class="topo__botao--pesquisa"><img src="assets/img/lupa.png" alt=""></button>
+            </div>
+        </section>
+    </header>
+
+    <main class="login">
+
+        <form class="login__sessao">
+            <p class="login__sessao--p">Iniciar Sessão</p>
+            <input class="login__sessao--email" type="text" name="email" id="" placeholder="Escreva seu e-mail">
+            <input class="login__sessao--senha" type="password" name="" id="" placeholder="Escreva sua senha">
+            <button class="login__botao">Entrar</button>
+        </form>
+
+    </main>
+
+    <footer class="rodape-conteudo">
+
+        <div class="rodape-conteudo__logo"></div>
+
+        <section class="rodape-conteudo__links">
+
+            <a class="rodape-conteudo__links--estilo" href="#">Quem somos nós</a>
+            <a class="rodape-conteudo__links--estilo" href="#">Política de privacidade</a>
+            <a class="rodape-conteudo__links--estilo" href="#">Programa de fidelidade</a>
+            <a class="rodape-conteudo__links--estilo" href="#">Nossas lojas</a>
+            <a class="rodape-conteudo__links--estilo" href="#">Quer ser franqueado</a>
+            <a class="rodape-conteudo__links--estilo" href="#">Anuncie aqui</a>
+        </section>
+
+        <section class="rodape-contato">
+
+            <form class="rodape-contato__campos">
+                <label for="nome" class="rodape-contato__label">Fale conosco</label>
+                <input type="text" name="" id="nome" placeholder="Nome" required class="rodape-contato__nome">
+                <textarea name="" id="mensagem" placeholder="Escreva sua mensagem"
+                    class="rodape-contato__mensagem"></textarea>
+            </form>
+            <button class="rodape-contato__botao">Enviar mensagem</button>
+
+        </section>
+    </footer>
+
+    <footer class="desenvolvedor">
+        <p>Desenvolvido por Leandro Arruda</p>
+        <p>2022</p>
+    </footer>
+
+</body>
+
+</html>

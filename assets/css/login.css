@@ -1,0 +1,47 @@
+.login {
+    width: 360px;
+    margin: 169px 0 90px 0;
+}
+
+.login__sessao {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 189px;
+}
+
+.login__sessao--p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.login__sessao--email, .login__sessao--senha {
+    text-indent: 10px;
+    height: 41px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.login__sessao--email {
+    border: none;
+}
+
+.login__botao {
+    margin: 0 auto;
+    width: 151px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    background: #2A7AE4;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 16.44px;
+    border: none;
+}
